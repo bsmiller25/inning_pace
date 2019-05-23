@@ -5,6 +5,8 @@ My fantasy baseball league has an innings limit and ESPN stopped showing me my p
 ## Note:
 I wrote this quickly using Python 3.6 on Ubuntu 18. Setting up a desktop icon is probably different on Macs but I don't know. Also all file paths are written Unix style. Make necessary adjustments.
 
+You will need Python3 with tkinter. You may need to run `apt-get install python3-tk` before setup. 
+
 ## Setup (for Ubuntu 18):
 
 1) Clone this repo locally.
