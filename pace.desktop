@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Inning Pace
+Version=1.0
+Type=Application
+Terminal=false
+Exec=/home/ben/projects/inning_pace/pace.py
+Icon=/home/ben/projects/inning_pace/pitcher.png
+StartupWMClass="MyTkApp"
