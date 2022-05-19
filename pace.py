@@ -12,7 +12,7 @@ def main():
         div['g'] = div['W'].astype(int) + div['L'].astype(int)
         gs.append(div['g'].mean())
 
-    pace = sum(gs)/len(gs) / 162.0 * 1500
+    pace = round(sum(gs)/len(gs) / 162.0 * 1500,2)
     print('Pace for 1500 innings: {}'.format(pace))
 
     root = tk.Tk(className='MyTkApp')
